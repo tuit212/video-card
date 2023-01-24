@@ -29,7 +29,7 @@ function createCrad(){
                 <div class="card-body">
                 <h5 class="card-title">${database[i].title}</h5>
                 <p class="card-text">${database[i].description}</p>
-                <a href="#" class="btn btn-primary" onclick="create(${database[i].id})">Go somewhere</a>
+                <a href="#" class="btn btn-danger" onclick="create(${database[i].id})">delete</a>
             </div>
         `
     }
